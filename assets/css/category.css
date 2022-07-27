@@ -1,0 +1,15 @@
+.category-table .category-right {
+  text-align: right; }
+.category-table .tbl-action {
+  justify-content: flex-end; }
+
+.table-cover {
+  min-height: 500px; }
+
+.script-box {
+  width: 100%;
+  border: solid 1px #dbe8f5;
+  padding: 0.3125rem 0.9375rem;
+  border-radius: 7px; }
+
+/*# sourceMappingURL=category.css.map */

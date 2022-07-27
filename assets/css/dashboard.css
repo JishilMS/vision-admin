@@ -1,0 +1,29 @@
+.dashboard-page .row {
+  --bs-gutter-y: 1.5rem; }
+.dashboard-page .dashboard-card {
+  display: flex;
+  align-items: center;
+  padding: 1.5625rem;
+  background: #fff;
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 10px; }
+  .dashboard-page .dashboard-card .dashboard-img {
+    width: 4.0625rem;
+    height: 4.0625rem;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    margin-right: 1.5625rem;
+    box-shadow: 0px 11px 27px rgba(38, 166, 154, 0.29); }
+  .dashboard-page .dashboard-card .dashboard-details {
+    flex: 1; }
+    .dashboard-page .dashboard-card .dashboard-details p {
+      font-size: 1.0625rem;
+      font-weight: 500;
+      color: #a0b3c4;
+      margin-bottom: 0.5rem; }
+    .dashboard-page .dashboard-card .dashboard-details span {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: #13436b; }
+
+/*# sourceMappingURL=dashboard.css.map */

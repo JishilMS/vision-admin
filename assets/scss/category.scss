@@ -1,0 +1,26 @@
+$primary-bg: #e7f6f5;
+$primary-color: #26a69a;
+$primary-txt: #404041;
+$secondary: #13436b;
+$shade: #6b8091;
+$shade-varient: #a0b3c4;
+$input-border: #dbe8f5;
+$placeholder: #a0b3c4;
+
+.category-table{
+    .category-right{
+      text-align: right;
+    }
+    .tbl-action{
+        justify-content: flex-end;
+    }
+}
+.table-cover{
+    min-height: 500px;
+}
+.script-box{
+    width: 100%;
+    border: solid 1px#dbe8f5;
+    padding: 0.3125rem 0.9375rem;
+    border-radius: 7px;
+}

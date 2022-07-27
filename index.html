@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/login.css" />
+    <link rel="stylesheet" href="assets/css/alert.css" />
+
+  </head>
+  <body>
+    <!-- loader -->
+    <!-- <div class="loader-box">
+      <div class="loader">Loading...</div>
+    </div> -->
+    <!-- loader end-->
+    <!-- alert -->
+ 
+
+
+    <!-- toast -->
+  <div class="toast-wapper-block toast-success-block">
+    <div class="toast-header-block">
+        <button type="button" class="close btn" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="toast-body-block">
+        <div class="toast-icon">
+            <img src="assets/images/toast-success-grn.svg" alt="">
+        </div>
+        <div class="toast-txt">
+            <h4>Success</h4>
+            <p>Your changes are saved successfully</p>
+        </div>
+    </div>
+</div>
+
+<!-- Warning -->
+
+<div class="toast-wapper-block toast-danger-block">
+    <div class="toast-header-block">
+        <button type="button" class="close btn" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="toast-body-block">
+        <div class="toast-icon">
+            <img src="assets/images/toast-error.svg" alt="">
+        </div>
+        <div class="toast-txt">
+            <h4>Error</h4>
+            <p>Error has occured while saving changes.</p>
+        </div>
+    </div>
+</div>
+  <!-- Toast end -->
+
+  <!-- Alert Notofication -->
+  <div class="alert notify-msg" role="alert">
+    <span class="bell">
+      <i class="far fa-bell"></i>
+    </span>
+    <span class="notify-label">
+      Lorem Ipsum is simply <span>dummy</span> text of the printing and typesetting
+    </span>
+    <button class="notify-close-btn">×</button>
+  </div>
+
+
+
+    <div class="auth-page-container">
+      <div class="logo-col">
+        <img src="assets/images/secondary-logo.svg" alt="" />
+      </div>
+      <div class="auth-form-col">
+        <div class="auth-form-container">
+          <h1 class="logo">
+            <a href="#">
+              <img src="assets/images/secondary-logo.svg" alt="" />
+            </a>
+          </h1>
+          <article>
+            <h2>Login</h2>
+            <p>Please login to continue</p>
+          </article>
+         
+
+          <div class="form-container">
+            <form action="">
+              <div class="input-field-wrap">
+                <div class="floating-label-input">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="floatingInput"
+                    placeholder="name@example.com"
+                  />
+                  <label for="">Email address</label>
+                  <div class="form-alert">Enter Email Address</div>
+                </div>
+                <!-- <p class="error-msg">error msg</p> -->
+              </div>
+              <div class="input-field-wrap">
+                <div class="floating-label-input">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password"/>
+                  <label for="">Password</label>
+                  <div class="form-alert">Enter Password</div>
+                </div>
+
+                <!-- <p class="error-msg">error msg</p> -->
+              </div>
+              <div class="auth-options">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Default checkbox
+                  </label>
+                </div>
+                <a href="" class="auth-link"> Forgot Password </a>
+              </div>
+              <div class="action-row">
+                <button type="button" class="btn btn-primary">Login</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
